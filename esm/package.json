@@ -1,0 +1,33 @@
+{
+  "name": "@fntools/loop/esm",
+  "version": "0.0.0",
+  "description": "simple looping",
+  "main": "./cjs/index.js",
+  "module": "./loop.js",
+  "type" : "module",
+  "exports": {
+    ".": {
+      "require" : "../cjs/index.js";
+      "import" : "./loop.js"
+    }
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lowecainandaya/loops.git"
+  },
+  "keywords": [
+    "require",
+    "validation",
+    "validator",
+    "interface",
+    "typing"
+  ],
+  "homepage": "https://github.com/lowecainandaya/loops",
+  "author": "Lluie Cain Andaya",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true
+}
